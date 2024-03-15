@@ -1,0 +1,45 @@
+/* Estilos CSS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.definition {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.term {
+    font-weight: bold;
+    color: #4CAF50;
+}
+ul {
+    text-align: center;
+}

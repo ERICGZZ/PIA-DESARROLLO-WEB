@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pasatiempos.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ir a la pantalla de inicio</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Mis Pasatiempos</h1>
+        
+        <!-- Pasatiempo 1: Ejemplo -->
+        <div class="hobby">
+          <h2>Fotografía</h2>
+          <p>La fotografía es uno de mis pasatiempos favoritos. Disfruto capturar momentos especiales y paisajes interesantes. Me encanta experimentar con diferentes técnicas y composiciones para crear imágenes únicas y memorables.</p>
+          <img src="https://th.bing.com/th/id/OIP.TT6SE3RDk9axx0hnUksj4gHaE8?w=249&h=180&c=7&r=0&o=5&cb=10&pid=1.7" alt="Fotografia">
+        </div>
+        
+        <!-- Pasatiempo 2: Ejemplo -->
+        <div class="hobby">
+          <h2>Cocina</h2>
+          <p>Otro de mis pasatiempos es cocinar. Me gusta explorar nuevas recetas y experimentar con ingredientes frescos y sabores interesantes. Disfruto tanto de la cocina cotidiana como de la elaboración de platos más elaborados para ocasiones especiales.</p>
+          <img src="https://th.bing.com/th/id/OIP.eStzFgXp1fZO3ptDomt79gHaEK?w=276&h=180&c=7&r=0&o=5&cb=10&pid=1.7" alt="Cocinar">
+        </div>
+    </div>
+
+        <h1>Formulario de Pasatiempos</h1>
+    <form id="hobbiesForm" action="#" method="post">
+    <!-- Nombre -->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    
+    <!-- Edad -->
+    <label for="edad">Edad:</label>
+    <input type="text" id="edad" name="edad">
+    
+    <!-- Pasatiempos -->
+    <label for="pasatiempos">Pasatiempos:</label>
+    <textarea id="pasatiempos" name="pasatiempos" rows="4"></textarea>
+    
+    <!-- Botón de envío -->
+    <button type="submit">Enviar</button>
+    </form>
+
+    <script src="pasatiempo.js"></script>
+</body>
+</html>

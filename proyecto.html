@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proyecto.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ir a la pantalla de inicio</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Mi Proyecto</h1>
+        
+        <!-- Proyecto: Ejemplo -->
+        <div class="project">
+          <h2>Sistema de Gestión de Tareas</h2>
+          <p>Este proyecto consiste en desarrollar un sistema de gestión de tareas para ayudar a las personas a organizar sus actividades diarias. La aplicación permite a los usuarios crear, editar y eliminar tareas, establecer fechas de vencimiento y prioridades, y recibir recordatorios para tareas importantes.</p>
+          <img src="https://th.bing.com/th/id/OIP.C1PPKtJqYGvPJtTCFBaAkwHaE8?w=218&h=180&c=7&r=0&o=5&cb=10&pid=1.7" alt="Sistema de Gestión de Tareas">
+        </div>
+    </div>   
+    
+        <h1>Formulario de Proyecto</h1>
+    <form id="projectForm" action="#" method="post">
+    <!-- Nombre del proyecto -->
+    <label for="nombre_proyecto">Nombre del Proyecto:</label>
+    <input type="text" id="nombre_proyecto" name="nombre_proyecto">
+    
+    <!-- Descripción del proyecto -->
+    <label for="descripcion_proyecto">Descripción del Proyecto:</label>
+    <textarea id="descripcion_proyecto" name="descripcion_proyecto" rows="4"></textarea>
+    
+    <!-- Fecha de inicio -->
+    <label for="fecha_inicio">Fecha de Inicio:</label>
+    <input type="text" id="fecha_inicio" name="fecha_inicio">
+    
+    <!-- Duración estimada -->
+    <label for="duracion_estimada">Duración Estimada (en semanas):</label>
+    <input type="text" id="duracion_estimada" name="duracion_estimada">
+    
+    <!-- Botón de envío -->
+    <button type="submit">Enviar</button>
+    </form>
+    <script src="proyecto.js"></script> 
+</body>
+</html>

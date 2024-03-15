@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="familia.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ir a la pantalla de inicio</a></li>
+        </ul>
+    </nav>
+    <section id="alumni">
+        <h2>Familia:</h2>
+        <article id="testimonio1">
+            <img src="https://www.freecodecamp.org/static/Shawn-bf42c7b909dae3111d18a21870ee6ca5.png" alt="Shawn Wang" width="27%">
+            <div id="testimonio_texto">
+                <div id="datos_alumno">
+                    <p><strong>Shawn Wang</strong> de Singapore</p>
+                    <p>Software Engineer de <strong>Amazon</strong></p>
+                </div>
+                <p id="testimonio_p">"Soy alguien muy divertido, me gusta ver peliculas o series, me gusta caminar por los parques ir a caminar a relajarme, me considero alguien muy simpatico."</p>
+            </div>
+        </article>
+        <article id="testimonio2">
+            <img src="https://www.freecodecamp.org/static/Sarah-45de0e53b7b2520ebbac35c454b9748a.png" alt="Sarah Chima" width="27%">
+            <div id="testimonio_texto">
+                <div id="datos_alumno">
+                    <p><strong>Sarah Chima</strong> de Nigeria</p>
+                    <p>jardinera en una  <strong>Ciudad</strong></p>
+                </div>
+                <p id="testimonio_p">"Me gusta mucho colorear, bailar,escuchar musica ."</p>
+            </div>
+        </article>
+        <article id="testimonio3">
+            <img src="https://www.freecodecamp.org/static/Emma-5a662db9bcf55809a1fefb2ea17634bc.png" alt="Emma Bostian" width="27%">
+            <div id="testimonio_texto">
+                <div id="datos_alumno">
+                    <p><strong>Emma Bostian</strong> de Sweden</p>
+                    <p>licenciada en  <strong>Licenciado en Tecnologias de la Informacion</strong></p>
+                </div>
+                <p id="testimonio_p">"Me gusta mucho programar, escuchar musica, ir a caminar, ir a comer algo, ir al cine."</p>
+            </div>
+        </article>
+        
+        <h1>Formulario de Familia</h1>
+        <form id="familyForm" action="#" method="post" enctype="multipart/form-data">
+          <!-- Integrante de la familia -->
+          <label for="integrante">Integrante de la familia:</label>
+          <input type="text" id="integrante" name="integrante">
+          
+          <!-- Nombre -->
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+          
+          <!-- Foto -->
+          <label for="foto">Foto:</label>
+          <input type="file" id="foto" name="foto">
+          
+          <!-- Datos generales -->
+          <label for="datos_generales">Datos Generales:</label>
+          <textarea id="datos_generales" name="datos_generales" rows="4"></textarea>
+          
+          <!-- Botón de envío -->
+          <button type="submit">Enviar</button>
+        </form>
+    <script src="familia.js"></script>
+</body>
+</html>
